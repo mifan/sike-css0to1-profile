@@ -178,6 +178,11 @@ ul.education-experience__list li img {
   padding-left: 30px;
 }
 
+/*****************8 photos ******/
+
+.photos{
+  overflow: hidden;
+}
 
 html {
   box-sizing: border-box;
@@ -198,3 +203,64 @@ html {
         border: 2px;
 }
 
+.photos__list li img {
+
+  padding: 10px;
+  width: 100%;
+}
+
+
+/********** get-in-touch *************/
+.get-in-touch{
+  overflow: hidden;
+
+}
+
+ul.get-in-touch__list {
+  list-style: none;
+
+}
+
+
+ul.get-in-touch__list li {
+        float: left;
+        width: 25%;
+        border: 2px;
+		text-align: center;
+}
+
+
+/*****************888 contact ****************/
+.contact {
+  overflow: hidden;
+  
+} 
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.contact form {
+  width: 40%;
+  margin: 0 auto;
+
+}
+
+.contact form label {
+  display: block;
+}
